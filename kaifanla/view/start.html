@@ -1,0 +1,13 @@
+<ion-content id="startPage">
+    <div class="container">
+        <h1 class="text-center">开饭啦<small>在线订餐</small></h1>
+        <img src="img/kid-foods.jpg" class="img-responsive">
+    </div>
+
+</ion-content>
+<script>
+    var parentHeight = $('#startPage').height();
+    var containerHeight = $('#startPage .container').height();
+    $('#startPage .container').css(
+            {marginTop:(parentHeight-containerHeight)/2-50});
+</script>

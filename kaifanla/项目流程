@@ -1,0 +1,27 @@
+目的：移动版本的app----开饭啦
+    技术构成：ionic、angularJS、jQuery
+
+                                                                         ——王晓燕
+
+    一、项目需求的把握及框架的构建
+        a、了解整个项目的需求及流程
+        b、进一步熟悉项目所要使用的相关技术
+        c、构建出项目框架
+        d、使用axure和ps等相关软件大体画出项目所需主要页面
+    二、项目的搭建及完成
+        a、创建项目，添加app，data，fonts，css，js，img，view文件夹，并添加与之对应的文件，
+            添加自定义的css，并创建完整的引导界面（index.html）。
+        b、完成index.html页面的大体框架：
+            引入ionic.css，jQuery，angularJS等相关文件及自定义图片；
+            定义模块ng-app及ui-view。
+        c、添加模板文件start/main/detail/myorder/sorry页面，利用ionic框架的相关组件
+            实现main页面与myorder页面的组合页签。
+        d、通过PHP获取json文件把数据传输到main和detail当中。
+        e、利用angularJS添加过滤器，用户可以通过关键字输入对数据进行快速查找。
+        f、利用angularJS定义路由，设置页面跳转。
+        g、利用ionic框架添加操作模态框、侧边栏以及登录注册界面。
+        h、利用ionic框架添加下拉刷新和上拉刷新功能。
+        i、利用jQuery框架添加页面切换的动画效果。
+    三、项目的测试修改
+        a、利用谷歌、火狐等主流浏览器进行多次测试，获取数据，页面跳转等是否正常。
+        b、进一步使用自定义CSS对项目的细微部分进行美化。

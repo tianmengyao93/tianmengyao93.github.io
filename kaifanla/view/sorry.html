@@ -1,0 +1,12 @@
+<div class="sorry">
+    <div class="sorry-con" style="width: 35%; margin: 0 auto;">
+        <img src="img/sorry.jpeg"/>
+        <h4>抱歉，您所点的菜品已售空。。。</h4>
+    </div>
+</div>
+<script>
+    var parentHeight = $(window).height();
+    var containerHeight = $('.sorry').height();
+    $('.sorry').css(
+            {marginTop:(parentHeight-containerHeight)/2-50});
+</script>

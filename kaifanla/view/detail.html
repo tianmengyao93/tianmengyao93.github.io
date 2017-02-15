@@ -1,0 +1,21 @@
+<ion-header-bar>
+    <h2 class="title">开饭啦<small>——订单详情</small></h2>
+    <button class="button button-calm" ng-click="showActionSheet()">操作</button>
+</ion-header-bar>
+<ion-content>
+    <h2 class="detailH2">{{name}}</h2>
+    <img class="detailImg" src="img/{{img_l}}">
+    <p>所用原料：{{material}}</p>
+    <hr/>
+    <p>菜品详情：{{detail}}</p>
+</ion-content>
+<ion-footer-bar>
+    <div class="row">
+        <div class="col-50">
+            <a href="#/mySorry" class="button button-block button-balanced">我要订餐</a>
+        </div>
+        <div class="col-60">
+            <a href="#/myMain" class="button button-block button-calm">我再看看</a>
+        </div>
+    </div>
+</ion-footer-bar>
